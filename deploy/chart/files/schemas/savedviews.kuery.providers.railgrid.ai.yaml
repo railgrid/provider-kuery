@@ -1,9 +1,9 @@
 apiVersion: apis.kcp.io/v1alpha1
 kind: APIResourceSchema
 metadata:
-  name: v260612-001.savedviews.kuery.providers.faros.sh
+  name: v260612-001.savedviews.kuery.providers.railgrid.ai
 spec:
-  group: kuery.providers.faros.sh
+  group: kuery.providers.railgrid.ai
   names:
     kind: SavedView
     listKind: SavedViewList
@@ -35,7 +35,7 @@ spec:
               root:
                 description: >-
                   The object the view is anchored on. Cluster is the
-                  faros edge name; empty matches any engaged edge.
+                  railgrid edge name; empty matches any engaged edge.
                 type: object
                 properties:
                   cluster: { type: string, maxLength: 256 }
